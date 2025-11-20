@@ -126,7 +126,7 @@ const Index = () => {
                   </h2>
                 </div>
 
-                <div className="bg-background/50 backdrop-blur rounded-xl p-6 md:p-8 mb-8 border border-primary/20">
+                <div className="bg-background/50 backdrop-blur rounded-xl p-6 md:p-8 border border-primary/20">
                   <p className="text-xl md:text-2xl leading-relaxed text-foreground">
                     {randomGreeting}
                   </p>
@@ -136,15 +136,6 @@ const Index = () => {
                     <span className="animate-twinkle" style={{ animationDelay: '0.6s' }}>✨</span>
                   </div>
                 </div>
-
-                <Button
-                  onClick={handleReset}
-                  size="lg"
-                  className="h-14 text-lg font-semibold bg-secondary hover:bg-secondary/90 text-secondary-foreground shadow-lg hover:shadow-xl transition-all hover:scale-105"
-                >
-                  <Icon name="RotateCcw" size={20} className="mr-2" />
-                  Поздравить ещё
-                </Button>
               </CardContent>
             </Card>
           )}
